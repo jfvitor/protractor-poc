@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jfvitor/protractor-poc#readme",
   "dependencies": {
-    "esquadro": "^1.5.9"
+    "esquadro": "^1.5.9",
+    "npm": "^5.7.1"
   }
 }
