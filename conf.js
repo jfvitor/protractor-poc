@@ -9,6 +9,6 @@ exports.config = {
     browser.driver.manage().window().setSize(1680, 1050);
     //browser.driver.manage().window().maximize()
     // browser.ignoreSynchronization = true;
-     jasmine.getEnv().addReporter(reporter);
+    // jasmine.getEnv().addReporter(reporter);
   }
 };
