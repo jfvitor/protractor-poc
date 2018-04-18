@@ -19,5 +19,8 @@
   "dependencies": {
     "esquadro": "^1.5.9",
     "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "protractor-jasmine2-html-reporter": "0.0.7"
   }
 }
