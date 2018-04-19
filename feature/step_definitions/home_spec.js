@@ -25,14 +25,12 @@ describe('Planos online website', () => {
         await expect(homepage.postContent.isPresent()).toEqual(true);
     });
 
-    it('get to see the details of a plan', async() => {
+    it('gets to see the details of a plan', async() => {
         await expect(homepage.detailBtn.isPresent()).toEqual(true);
-        //console.log(homepage.detailBtn);
         await homepage.detailBtn.click();
         handles = await browser.getAllWindowHandles(); // aguarda a execução deste bloco
         browser.switchTo().window(handles[2]); // pega o segundo item (indice 1) que é a nova aba
         await expect(browser.getTitle()).toEqual('Planos Online - POS P');
-
     });
 
 });
