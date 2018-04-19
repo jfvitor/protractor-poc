@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524169370702' stop='1524169387412'>
+    <name>Purchasing a new bill pay</name>
+    <title>Purchasing a new bill pay</title>
+    <test-cases>
+        <test-case start='1524169379775' status='passed' stop='1524169381452'>
+            <name>should go to checkout page</name>
+            <title>should go to checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1524169381455' status='passed' stop='1524169382265'>
+            <name>should fill out the step 0 form</name>
+            <title>should fill out the step 0 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1524169382265' status='passed' stop='1524169383214'>
+            <name>should fill out step 1 form</name>
+            <title>should fill out step 1 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1524169383214' status='passed' stop='1524169385763'>
+            <name>should fill out the step 2 form</name>
+            <title>should fill out the step 2 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1524169385763' status='passed' stop='1524169387411'>
+            <name>should fill out the step 3 form and finish solicitation</name>
+            <title>should fill out the step 3 form and finish solicitation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,7 +1,7 @@
 'use strict'
 
 //const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
-const Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+//const Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 
 module.exports.config = {
 
@@ -9,16 +9,53 @@ module.exports.config = {
     directConnect: true,
     specs: [
         'feature/step_definitions/*.js',
-  //      'feature/step_definitions/e2e/*.js',
+        //      'feature/step_definitions/e2e/*.js',
     ],
-    onPrepare: function () {
-        jasmine.getEnv().addReporter(
-            new Jasmine2HtmlReporter({
-                savePath: 'target/screenshots'
-            }));
 
-        //  browser.driver.manage().window().setSize(1680, 1050);
-        browser.driver.manage().window().maximize()
-        // browser.ignoreSynchronization = true;
-    }
-};
+   /* jasmineNodeOpts: {
+        showColors: true,
+        print: function () {},
+*/
+        onPrepare: () => {
+            var AllureReporter = require('jasmine-allure-reporter');
+            jasmine.getEnv().addReporter(
+                // new Jasmine2HtmlReporter({
+                //     savePath: 'target/screenshots'
+                new AllureReporter());
+                jasmine.getEnv().afterEach(function(done){
+                    browser.takeScreenshot().then(function (png) {
+                      allure.createAttachment('Screenshot', function () {
+                        return new Buffer(png, 'base64')
+                      }, 'image/png')();
+                      done();
+                    })
+                  });
+                ;
+
+            var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+            jasmine.getEnv().addReporter(
+                new SpecReporter({
+                    spec: {
+                        displayErrorMessages: true,
+                        displayStacktrace: true,
+                        displayDuration: true,
+                        displayFailed: true
+                    },
+                    summary: {
+                        displayPending: true,
+                        displayErrorMessages: true,
+                        displayFailed: true,
+                        displaySuccessful: true,
+                        displayDuration: true
+                    },
+                    colors: {
+                        enabled: true
+                    }
+
+                }));
+
+            //  browser.driver.manage().window().setSize(1680, 1050);
+            browser.driver.manage().window().maximize()
+            // browser.ignoreSynchronization = true;
+        }
+    };

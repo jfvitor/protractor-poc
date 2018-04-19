@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524170615685' stop='1524170630517'>
+    <name>Purchasing a new bill pay</name>
+    <title>Purchasing a new bill pay</title>
+    <test-cases>
+        <test-case start='1524170621770' status='passed' stop='1524170623620'>
+            <name>should go to checkout page</name>
+            <title>should go to checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dd0564c0-af15-4555-8dd7-ac99e2e6b8ab-attachment.png' type='image/png' size='242512'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524170623622' status='passed' stop='1524170624708'>
+            <name>should fill out the step 0 form</name>
+            <title>should fill out the step 0 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8cfb1a34-a4d4-45ea-93ca-e14a528d7401-attachment.png' type='image/png' size='245128'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524170624708' status='passed' stop='1524170626003'>
+            <name>should fill out step 1 form</name>
+            <title>should fill out step 1 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='630c42e5-b42d-4f5b-bf33-48811fe425c0-attachment.png' type='image/png' size='285595'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524170626003' status='passed' stop='1524170628876'>
+            <name>should fill out the step 2 form</name>
+            <title>should fill out the step 2 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='47fe0c81-8f8b-4864-84c0-8eac790a456e-attachment.png' type='image/png' size='286068'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524170628876' status='passed' stop='1524170630517'>
+            <name>should fill out the step 3 form and finish solicitation</name>
+            <title>should fill out the step 3 form and finish solicitation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0cfa65ef-520b-40a1-8f74-435bf0b12eee-attachment.png' type='image/png' size='253661'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

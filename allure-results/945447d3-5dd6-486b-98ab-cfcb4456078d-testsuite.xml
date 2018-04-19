@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524171428192' stop='1524171436499'>
+    <name>Checking the detail of a plan</name>
+    <title>Checking the detail of a plan</title>
+    <test-cases>
+        <test-case start='1524171429276' status='passed' stop='1524171430796'>
+            <name>should go to the detail page</name>
+            <title>should go to the detail page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b061714a-4ca6-4a37-972c-3314cb3bf162-attachment.png' type='image/png' size='247252'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524171430796' status='passed' stop='1524171432688'>
+            <name>should have the option to navigate among the bill pay plans</name>
+            <title>should have the option to navigate among the bill pay plans</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2129d729-f2cf-403e-8cb3-63b95b3676f7-attachment.png' type='image/png' size='268521'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524171432689' status='passed' stop='1524171433385'>
+            <name>should change to Control Plans detail page</name>
+            <title>should change to Control Plans detail page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56bffd0d-00ae-42fe-b063-42420400b29f-attachment.png' type='image/png' size='247323'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524171433386' status='passed' stop='1524171434513'>
+            <name>should have the option to navigate among the Control plans</name>
+            <title>should have the option to navigate among the Control plans</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c0002592-212e-40ab-91c1-f48df848d953-attachment.png' type='image/png' size='247323'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524171434514' status='passed' stop='1524171435939'>
+            <name>should have a purchase button</name>
+            <title>should have a purchase button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='330e51f6-f28a-4d67-8116-5c99a56048fd-attachment.png' type='image/png' size='242561'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524171435940' status='passed' stop='1524171436498'>
+            <name>should go to the checkout page</name>
+            <title>should go to the checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9faea3ed-7b12-4ee4-9d2b-055463fb67e0-attachment.png' type='image/png' size='245840'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
