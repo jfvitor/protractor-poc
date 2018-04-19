@@ -8,7 +8,8 @@ module.exports.config = {
     framework: 'jasmine',
     directConnect: true,
     specs: [
-        'feature/step_definitions/*.js',
+       'feature/step_definitions/*.js',
+     // 'feature/step_definitions/home_spec.js',
     ],
     onPrepare: function() {
         jasmine.getEnv().addReporter(
@@ -16,8 +17,8 @@ module.exports.config = {
                 savePath: 'target/screenshots'
             }));
 
-        browser.driver.manage().window().setSize(1680, 1050);
-        //browser.driver.manage().window().maximize()
+      //  browser.driver.manage().window().setSize(1680, 1050);
+        browser.driver.manage().window().maximize()
         // browser.ignoreSynchronization = true;
     }
 };
