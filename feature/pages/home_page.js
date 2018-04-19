@@ -12,6 +12,10 @@ var HomePage = function() {
     this.controlBtn = element(by.buttonText("Controle"));
     this.controlPlans = element(by.css('//*[@id="frmHome"]/section[2]/ul[2]'));
     this.controlContent = element(by.css('ul.contControle'));
+
+    //Comprar
+    this.purchaseBtn = element(by.css('#planosNextel > ul.contPos > li:nth-child(1) > ul > li:nth-child(4) > a.btnComprar'));
+    this.checkoutBtn = element(by.id('btnCheckout'));
 };
 
 module.exports = HomePage;
