@@ -19,7 +19,7 @@ describe('Purchasing a new bill pay', () => {
     it('should fill out the step 0 form', async () => {
         await expect(checkoutpage.nameForm.isPresent()).toEqual(true);
         await expect(checkoutpage.nameField.isPresent()).toEqual(true);
-        await checkoutpage.nameField.clear().sendKeys('Pamela Marta');
+        await checkoutpage.nameField.clear().sendKeys('Marta');
         await checkoutpage.lastnameField.clear().sendKeys('Rita');
         await checkoutpage.emailField.clear().sendKeys('jacqueline.vitor@nextel.com.br');
         await checkoutpage.step0.click();

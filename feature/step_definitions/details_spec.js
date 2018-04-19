@@ -2,7 +2,7 @@ const HomePage = require('../pages/home_page');
 const Detail = require('../pages/details_page');
 const CheckOutPage = require('../pages/checkout_page');
 
-describe('Checking the details of a plan', () => {
+describe('Checking the detail of a plan', () => {
     var checkoutpage = new CheckOutPage();
     var homepage = new HomePage();
     var detail = new Detail();
@@ -11,7 +11,7 @@ describe('Checking the details of a plan', () => {
         browser.get('http://planosonline-hmg.nexteldigital.com.br');
     });
 
-    it('should go to the details page', async() => { // declara que o escopo trabalha de modo assincrono
+    it('should go to the detail page', async() => { // declara que o escopo trabalha de modo assincrono
         await homepage.detailBtn.click();
         handles = await browser.getAllWindowHandles(); // aguarda a execução deste bloco
         browser.switchTo().window(handles[1]); // pega o segundo item (indice 1) que é a nova aba
@@ -30,7 +30,7 @@ describe('Checking the details of a plan', () => {
         await expect(browser.getTitle()).toEqual('Planos Online - POS GG');
     });
 
-    it('should change to Control Plans details page', async() => {
+    it('should change to Control Plans detail page', async() => {
         await detail.changePlans.click();
         await expect(browser.getTitle()).toContain('Planos Online - CONTROLE');
     });
@@ -50,7 +50,7 @@ describe('Checking the details of a plan', () => {
     it('should go to the checkout page', async() => {
         await expect(browser.getCurrentUrl()).toBe("http://planosonline-hmg.nexteldigital.com.br/plano/checkout");
         await expect(checkoutpage.step0.isPresent()).toEqual(true)
-        await detail.step0.click();
+        await checkoutpage.step0.click();
     });
 
 });

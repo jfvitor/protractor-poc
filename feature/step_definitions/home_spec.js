@@ -1,4 +1,3 @@
-//const page = require('esquadro/page');
 const HomePage = require('../pages/home_page');
 
 describe('Planos online website', () => {
@@ -16,7 +15,6 @@ describe('Planos online website', () => {
         await expect(homepage.controlBtn.isPresent()).toEqual(true);
         await homepage.controlBtn.click();
         await expect(homepage.controlContent.isPresent()).toEqual(true);
-
     });
 
     it('should show Pós-pago options', async() => {
@@ -28,8 +26,8 @@ describe('Planos online website', () => {
     it('gets to see the details of a plan', async() => {
         await expect(homepage.detailBtn.isPresent()).toEqual(true);
         await homepage.detailBtn.click();
-        handles = await browser.getAllWindowHandles(); // aguarda a execução deste bloco
-        browser.switchTo().window(handles[2]); // pega o segundo item (indice 1) que é a nova aba
+        handles = await browser.getAllWindowHandles(); 
+        browser.switchTo().window(handles[2]);
         await expect(browser.getTitle()).toEqual('Planos Online - POS P');
     });
 
