@@ -26,7 +26,7 @@ describe('Planos online website', () => {
     it('gets to see the details of a plan', async() => {
         await expect(homepage.detailBtn.isPresent()).toEqual(true);
         await homepage.detailBtn.click();
-        handles = await browser.getAllWindowHandles(); 
+        handles = await browser.getAllWindowHandles();
         browser.switchTo().window(handles[2]);
         await expect(browser.getTitle()).toEqual('Planos Online - POS P');
     });

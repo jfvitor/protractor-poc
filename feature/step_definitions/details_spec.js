@@ -6,7 +6,7 @@ describe('Checking the detail of a plan', () => {
     var checkoutpage = new CheckOutPage();
     var homepage = new HomePage();
     var detail = new Detail();
-    
+
     beforeAll(async() => {
         browser.get('http://planosonline-hmg.nexteldigital.com.br');
     });
@@ -18,14 +18,26 @@ describe('Checking the detail of a plan', () => {
         await expect(browser.getCurrentUrl()).toBe("http://planosonline-hmg.nexteldigital.com.br/plano/pos/p");
     });
 
-    it('should have the option to navigate among the bill pay plans', async() => {
+    it('should have the option to navigate among the plans', async() => {
         await expect(detail.detailsList.isPresent()).toEqual(true)
+    });
+
+    it('should go to Plan M', async() => {
         await detail.detailsM.click();
         await expect(browser.getTitle()).toEqual('Planos Online - POS M');
+    });
+
+    it('should go to Plan P', async() => {
         await detail.detailsP.click();
         await expect(browser.getTitle()).toEqual('Planos Online - POS P');
+    });
+
+    it('should go to Plan G', async() => {
         await detail.detailsG.click();
         await expect(browser.getTitle()).toEqual('Planos Online - POS G');
+    });
+
+    it('should go to Plan GG', async() => {
         await detail.detailsGG.click();
         await expect(browser.getTitle()).toEqual('Planos Online - POS GG');
     });
@@ -35,9 +47,12 @@ describe('Checking the detail of a plan', () => {
         await expect(browser.getTitle()).toContain('Planos Online - CONTROLE');
     });
 
-    it('should have the option to navigate among the Control plans', async() => {
+    it('should go to plan Control 5GB', async() => {
         await detail.detailsControl2.click();
         await expect(browser.getTitle()).toEqual('Planos Online - CONTROLE 5GB');
+
+    });
+    it('should go to plan Control 3GB', async() => {
         await detail.detailsControl1.click();
         await expect(browser.getTitle()).toEqual('Planos Online - CONTROLE 3GB');
     });
@@ -47,7 +62,7 @@ describe('Checking the detail of a plan', () => {
         await detail.purchaseBtn.click();
     });
 
-    it('should go to the checkout page', async() => {
+    it('should go to step 0 of the checkout page', async() => {
         await expect(browser.getCurrentUrl()).toBe("http://planosonline-hmg.nexteldigital.com.br/plano/checkout");
         await expect(checkoutpage.step0.isPresent()).toEqual(true)
         await checkoutpage.step0.click();
