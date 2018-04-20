@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "HMG" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "65.0.3325.181" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "http://planosonline-hmg.nexteldigital.com.br/" ],
+  "name" : "Link"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+} ]

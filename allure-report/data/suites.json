@@ -1,0 +1,257 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Purchasing a new bill pay",
+    "children" : [ {
+      "name" : "should go to checkout page",
+      "uid" : "5cf983e012680189",
+      "parentUid" : "072e70950f3d817ebec3d3f6a7878a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246466111,
+        "stop" : 1524246468033,
+        "duration" : 1922
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should fill out the step 0 form and move to step 1 form",
+      "uid" : "146a753fa77d8e35",
+      "parentUid" : "072e70950f3d817ebec3d3f6a7878a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246468034,
+        "stop" : 1524246469506,
+        "duration" : 1472
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should fill out step 1 form and move to step 2 form",
+      "uid" : "e721870d821f1000",
+      "parentUid" : "072e70950f3d817ebec3d3f6a7878a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246469506,
+        "stop" : 1524246470775,
+        "duration" : 1269
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should fill out the step 2 form and move to step 3 form",
+      "uid" : "973401fdc001238e",
+      "parentUid" : "072e70950f3d817ebec3d3f6a7878a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246470775,
+        "stop" : 1524246473683,
+        "duration" : 2908
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+      "uid" : "18556a0e3a90d475",
+      "parentUid" : "072e70950f3d817ebec3d3f6a7878a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246473683,
+        "stop" : 1524246475374,
+        "duration" : 1691
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "072e70950f3d817ebec3d3f6a7878a06"
+  }, {
+    "name" : "Checking the detail of a plan",
+    "children" : [ {
+      "name" : "should go to the detail page",
+      "uid" : "de4d938eea5df519",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246476318,
+        "stop" : 1524246477322,
+        "duration" : 1004
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should have the option to navigate among the plans",
+      "uid" : "bd440647a4ad332d",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246477322,
+        "stop" : 1524246477906,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to Plan M",
+      "uid" : "fff065b31ab982d9",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246477906,
+        "stop" : 1524246478838,
+        "duration" : 932
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to Plan P",
+      "uid" : "324d1d7695b6ccca",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246478838,
+        "stop" : 1524246479704,
+        "duration" : 866
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to Plan G",
+      "uid" : "93986cef40ed461d",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246479704,
+        "stop" : 1524246480622,
+        "duration" : 918
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to Plan GG",
+      "uid" : "605bbcdafc8d007d",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246480622,
+        "stop" : 1524246481507,
+        "duration" : 885
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should change to Control Plans detail page",
+      "uid" : "5b07bbe54cb6fa76",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246481507,
+        "stop" : 1524246482399,
+        "duration" : 892
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to plan Control 5GB",
+      "uid" : "78398ab05222392b",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246482399,
+        "stop" : 1524246483277,
+        "duration" : 878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to plan Control 3GB",
+      "uid" : "99275a3bf70dd52d",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246483277,
+        "stop" : 1524246484198,
+        "duration" : 921
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should have a purchase button",
+      "uid" : "31f1f64ae0cebee9",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246484198,
+        "stop" : 1524246485607,
+        "duration" : 1409
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should go to step 0 of the checkout page",
+      "uid" : "85b05cfe1507522e",
+      "parentUid" : "b01e3d91967d7706789d5151ad2d9f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246485608,
+        "stop" : 1524246486291,
+        "duration" : 683
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b01e3d91967d7706789d5151ad2d9f7f"
+  }, {
+    "name" : "Planos online website",
+    "children" : [ {
+      "name" : "should have a Title",
+      "uid" : "189f7019198f9b1f",
+      "parentUid" : "0f7901a6a9203cd512daadf8c69bf9a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246487129,
+        "stop" : 1524246487648,
+        "duration" : 519
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should show Controle options",
+      "uid" : "32f2be2d929bf58c",
+      "parentUid" : "0f7901a6a9203cd512daadf8c69bf9a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246487648,
+        "stop" : 1524246488282,
+        "duration" : 634
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should show Pós-pago options",
+      "uid" : "ae81442c6be772ac",
+      "parentUid" : "0f7901a6a9203cd512daadf8c69bf9a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246488283,
+        "stop" : 1524246488915,
+        "duration" : 632
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "gets to see the details of a plan",
+      "uid" : "af83cf5aadfd1453",
+      "parentUid" : "0f7901a6a9203cd512daadf8c69bf9a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246488915,
+        "stop" : 1524246489874,
+        "duration" : 959
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0f7901a6a9203cd512daadf8c69bf9a8"
+  } ]
+}
