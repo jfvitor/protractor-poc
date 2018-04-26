@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524505841884' stop='1524505852854'>
+    <name>Checking the detail of a plan</name>
+    <title>Checking the detail of a plan</title>
+    <test-cases>
+        <test-case start='1524505842781' status='passed' stop='1524505843760'>
+            <name>should go to the detail page</name>
+            <title>should go to the detail page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ddbb71e8-c681-4aa4-b26e-a7e1efb8f4b0-attachment.png' type='image/png' size='1025403'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505843760' status='passed' stop='1524505844333'>
+            <name>should have the option to navigate among the plans</name>
+            <title>should have the option to navigate among the plans</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='220ba818-4d63-467a-b6c8-c2d0166b6eb8-attachment.png' type='image/png' size='1025403'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505844333' status='passed' stop='1524505845292'>
+            <name>should go to Plan M</name>
+            <title>should go to Plan M</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba391c98-8e11-4a62-ac9a-1c01e6e80fe9-attachment.png' type='image/png' size='1235948'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505845292' status='passed' stop='1524505846177'>
+            <name>should go to Plan P</name>
+            <title>should go to Plan P</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd2909fd-17d5-4025-b29f-cd6d2be0f669-attachment.png' type='image/png' size='1025403'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505846178' status='passed' stop='1524505847128'>
+            <name>should go to Plan G</name>
+            <title>should go to Plan G</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9e39e674-ae84-4f1e-bc53-35e3c8e9cfde-attachment.png' type='image/png' size='1291601'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505847128' status='passed' stop='1524505848037'>
+            <name>should go to Plan GG</name>
+            <title>should go to Plan GG</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fa56b29d-c267-47f7-9186-370786194381-attachment.png' type='image/png' size='1097461'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505848038' status='passed' stop='1524505848954'>
+            <name>should change to Control Plans detail page</name>
+            <title>should change to Control Plans detail page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b548f5d8-1d4c-4fd3-b3e9-b909c693801f-attachment.png' type='image/png' size='1023300'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505848954' status='passed' stop='1524505849872'>
+            <name>should go to plan Control 5GB</name>
+            <title>should go to plan Control 5GB</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f5d0f8f-9bc7-425c-9225-03f75d6f34cf-attachment.png' type='image/png' size='1234166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505849872' status='passed' stop='1524505850783'>
+            <name>should go to plan Control 3GB</name>
+            <title>should go to plan Control 3GB</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='aaf7da49-6700-47a9-9cd5-918f412f9e1b-attachment.png' type='image/png' size='1023300'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505850783' status='passed' stop='1524505852138'>
+            <name>should have a purchase button</name>
+            <title>should have a purchase button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e20c9e58-a058-4d19-af0e-5997f76f137e-attachment.png' type='image/png' size='843760'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505852138' status='passed' stop='1524505852854'>
+            <name>should go to step 0 of the checkout page</name>
+            <title>should go to step 0 of the checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='02258c27-cd49-4083-9bd2-1497275e7542-attachment.png' type='image/png' size='855584'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

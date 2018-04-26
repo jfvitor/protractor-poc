@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524764829589' stop='1524764842472'>
+    <name>Purchasing a new bill pay</name>
+    <title>Purchasing a new bill pay</title>
+    <test-cases>
+        <test-case start='1524764832400' status='passed' stop='1524764834302'>
+            <name>should go to checkout page</name>
+            <title>should go to checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ddf719a4-bf89-43e6-8174-2743dcf0221c-attachment.png' type='image/png' size='829679'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524764834303' status='passed' stop='1524764835490'>
+            <name>should fill out the step 0 form and move to step 1 form</name>
+            <title>should fill out the step 0 form and move to step 1 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9fec5f45-2cf1-4a8e-814c-16cb34b3b12e-attachment.png' type='image/png' size='857208'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524764835490' status='passed' stop='1524764836719'>
+            <name>should fill out step 1 form and move to step 2 form</name>
+            <title>should fill out step 1 form and move to step 2 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ebe56c5-1e68-49ef-b0a1-b4046d692331-attachment.png' type='image/png' size='829968'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524764836720' status='passed' stop='1524764840555'>
+            <name>should fill out the step 2 form and move to step 3 form</name>
+            <title>should fill out the step 2 form and move to step 3 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='62b3534b-59c8-4e28-9aed-705023a07e66-attachment.png' type='image/png' size='867992'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524764840555' status='failed' stop='1524764842454'>
+            <name>should fill out the step 3 form and show the protocol number informing that the request was sent</name>
+            <title>should fill out the step 3 form and show the protocol number informing that the request was sent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cbdc6b02-c5c6-48b8-bbea-b913ded538dd-attachment.png' type='image/png' size='945092'/>
+            </attachments>
+            <failure>
+                <message>Expected false to equal true.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.it (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:57:63)
+                    at &lt;anonymous></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

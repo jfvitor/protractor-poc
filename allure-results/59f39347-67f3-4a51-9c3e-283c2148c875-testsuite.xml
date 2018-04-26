@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524505852859' stop='1524505856512'>
+    <name>Planos online website</name>
+    <title>Planos online website</title>
+    <test-cases>
+        <test-case start='1524505853686' status='passed' stop='1524505854200'>
+            <name>should have a Title</name>
+            <title>should have a Title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='aa6c1c9e-5bdd-4085-a63a-8c3d87ec461e-attachment.png' type='image/png' size='651246'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505854201' status='passed' stop='1524505854847'>
+            <name>should show Controle options</name>
+            <title>should show Controle options</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9833b53d-6ed7-42a2-9aff-e53fef4de566-attachment.png' type='image/png' size='609167'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505854847' status='passed' stop='1524505855473'>
+            <name>should show Pós-pago options</name>
+            <title>should show Pós-pago options</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ebb45496-3d68-44eb-a5ee-766861e65cda-attachment.png' type='image/png' size='643841'/>
+            </attachments>
+        </test-case>
+        <test-case start='1524505855473' status='passed' stop='1524505856495'>
+            <name>gets to see the details of a plan</name>
+            <title>gets to see the details of a plan</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='97d72d6f-d085-4586-99d0-89f3d6e30630-attachment.png' type='image/png' size='1025403'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
