@@ -1,7 +1,7 @@
 const CheckOutPage = require('../pages/checkout_page');
 const HomePage = require('../pages/home_page');
 
-describe('Purchasing a new bill pay', () => {
+describe('Purchasing a new post paid', () => {
     var checkoutpage = new CheckOutPage();
     var homepage = new HomePage();
 
