@@ -8,8 +8,8 @@ Features tested:
 - Finish one solicitation
 
 # Instalation
-To install `npm install`
-To execute `protractor conf.js`
+- To install `npm install`
+- To execute `protractor conf.js`
 
 # Allure Report
 
