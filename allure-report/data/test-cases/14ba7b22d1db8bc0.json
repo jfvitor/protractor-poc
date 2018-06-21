@@ -1,0 +1,109 @@
+{
+  "uid" : "14ba7b22d1db8bc0",
+  "name" : "should show Pós-pago options",
+  "fullName" : "Planos online website.should show Pós-pago options",
+  "historyId" : "9fdf2ed54a8a10bdd57dc3ae329087c7",
+  "time" : {
+    "start" : 1529614690734,
+    "stop" : 1529614691435,
+    "duration" : 701
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "264c3b22c70590b",
+      "name" : "Screenshot",
+      "source" : "264c3b22c70590b.png",
+      "type" : "image/png",
+      "size" : 676947
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testClass",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show Pós-pago options"
+  }, {
+    "name" : "package",
+    "value" : "Planos online website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f82d5df3c4a61144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525701580373,
+        "stop" : 1525701581061,
+        "duration" : 688
+      }
+    }, {
+      "uid" : "429ec952a5b3ca6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524765518986,
+        "stop" : 1524765519628,
+        "duration" : 642
+      }
+    }, {
+      "uid" : "91c3d77c91be6f55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764855210,
+        "stop" : 1524764855832,
+        "duration" : 622
+      }
+    }, {
+      "uid" : "aeb6dc2a7a2fcec5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764178736,
+        "stop" : 1524764179349,
+        "duration" : 613
+      }
+    }, {
+      "uid" : "9d41f94bc4735228",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524505854847,
+        "stop" : 1524505855473,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "8a8303ecbebc7efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246488283,
+        "stop" : 1524246488915,
+        "duration" : 632
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14ba7b22d1db8bc0.json",
+  "parameterValues" : [ ]
+}

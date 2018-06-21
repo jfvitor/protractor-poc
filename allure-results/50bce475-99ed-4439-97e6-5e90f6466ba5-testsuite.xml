@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1529614650784' stop='1529614663576'>
+    <name>Purchasing a new post paid</name>
+    <title>Purchasing a new post paid</title>
+    <test-cases>
+        <test-case start='1529614653432' status='passed' stop='1529614655744'>
+            <name>should go to checkout page</name>
+            <title>should go to checkout page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='61536cfb-242d-44a2-91e9-054233696b81-attachment.png' type='image/png' size='976916'/>
+            </attachments>
+        </test-case>
+        <test-case start='1529614655745' status='passed' stop='1529614657245'>
+            <name>should fill out the step 0 form and move to step 1 form</name>
+            <title>should fill out the step 0 form and move to step 1 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f1a21519-17d9-4c7b-ad00-d19f7ffd3d61-attachment.png' type='image/png' size='961023'/>
+            </attachments>
+        </test-case>
+        <test-case start='1529614657245' status='passed' stop='1529614658527'>
+            <name>should fill out step 1 form and move to step 2 form</name>
+            <title>should fill out step 1 form and move to step 2 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c6d738f8-a225-4d68-8511-c22252b136db-attachment.png' type='image/png' size='932406'/>
+            </attachments>
+        </test-case>
+        <test-case start='1529614658527' status='passed' stop='1529614661785'>
+            <name>should fill out the step 2 form and move to step 3 form</name>
+            <title>should fill out the step 2 form and move to step 3 form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dd2bf197-02a5-4f21-9520-dfb725dfd703-attachment.png' type='image/png' size='982637'/>
+            </attachments>
+        </test-case>
+        <test-case start='1529614661786' status='passed' stop='1529614663561'>
+            <name>should fill out the step 3 form and show the protocol number informing that the request was sent</name>
+            <title>should fill out the step 3 form and show the protocol number informing that the request was sent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba6ace29-dec7-4e55-a91d-28af94b3cdc1-attachment.png' type='image/png' size='1067247'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

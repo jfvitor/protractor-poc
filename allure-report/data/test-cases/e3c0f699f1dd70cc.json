@@ -1,0 +1,93 @@
+{
+  "uid" : "e3c0f699f1dd70cc",
+  "name" : "should fill out the step 0 form and move to step 1 form",
+  "fullName" : "Purchasing a new bill pay.should fill out the step 0 form and move to step 1 form",
+  "historyId" : "1c4c82b79fdfad8523deedd8d71c453c",
+  "time" : {
+    "start" : 1524765498732,
+    "stop" : 1524765499904,
+    "duration" : 1172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "53062210b5a04950",
+      "name" : "Screenshot",
+      "source" : "53062210b5a04950.png",
+      "type" : "image/png",
+      "size" : 857208
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out the step 0 form and move to step 1 form"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9709073ef2303bae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764834303,
+        "stop" : 1524764835490,
+        "duration" : 1187
+      }
+    }, {
+      "uid" : "3c3bb3bf39865ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764160900,
+        "stop" : 1524764162298,
+        "duration" : 1398
+      }
+    }, {
+      "uid" : "66989f371630bb19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524505838407,
+        "stop" : 1524505839609,
+        "duration" : 1202
+      }
+    }, {
+      "uid" : "99627efc5d516d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246468034,
+        "stop" : 1524246469506,
+        "duration" : 1472
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3c0f699f1dd70cc.json",
+  "parameterValues" : [ ]
+}

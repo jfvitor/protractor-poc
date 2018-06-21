@@ -1,0 +1,59 @@
+{
+  "uid" : "5c9096462600d855",
+  "name" : "should change to Control Plans detail page",
+  "fullName" : "Checking the detail of a plan.should change to Control Plans detail page",
+  "historyId" : "158ca2440ca1c994ecba4512f56b8aba",
+  "time" : {
+    "start" : 1525701572037,
+    "stop" : 1525701573164,
+    "duration" : 1127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "552f44de73f90cd3",
+      "name" : "Screenshot",
+      "source" : "552f44de73f90cd3.png",
+      "type" : "image/png",
+      "size" : 1067383
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should change to Control Plans detail page"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c9096462600d855.json",
+  "parameterValues" : [ ]
+}

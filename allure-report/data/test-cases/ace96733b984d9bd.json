@@ -1,0 +1,63 @@
+{
+  "uid" : "ace96733b984d9bd",
+  "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "fullName" : "Purchasing a new bill pay.should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "historyId" : "368516cb5686022cca4425f587986ec",
+  "time" : {
+    "start" : 1524764840555,
+    "stop" : 1524764842454,
+    "duration" : 1899
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected false to equal true.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.it (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:57:63)\n                    at <anonymous>",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected false to equal true.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.it (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:57:63)\n                    at <anonymous>",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e65c7c48670d35e",
+      "name" : "Screenshot",
+      "source" : "9e65c7c48670d35e.png",
+      "type" : "image/png",
+      "size" : 945092
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out the step 3 form and show the protocol number informing that the request was sent"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ace96733b984d9bd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "11948736e9b1d8eb",
+  "name" : "should go to Plan M",
+  "fullName" : "Checking the detail of a plan.should go to Plan M",
+  "historyId" : "32ea5b28fae4172e6d2c2ac051e249f8",
+  "time" : {
+    "start" : 1524764844961,
+    "stop" : 1524764845900,
+    "duration" : 939
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f2572a6bd94dc8f",
+      "name" : "Screenshot",
+      "source" : "3f2572a6bd94dc8f.png",
+      "type" : "image/png",
+      "size" : 1238284
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to Plan M"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11948736e9b1d8eb.json",
+  "parameterValues" : [ ]
+}

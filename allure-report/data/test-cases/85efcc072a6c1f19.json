@@ -1,0 +1,59 @@
+{
+  "uid" : "85efcc072a6c1f19",
+  "name" : "should have a purchase button",
+  "fullName" : "Checking the detail of a plan.should have a purchase button",
+  "historyId" : "4b82d3228571a288a5cbee89e66d5e32",
+  "time" : {
+    "start" : 1524764174501,
+    "stop" : 1524764175933,
+    "duration" : 1432
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c36d6f02034e1d04",
+      "name" : "Screenshot",
+      "source" : "c36d6f02034e1d04.png",
+      "type" : "image/png",
+      "size" : 817363
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a purchase button"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85efcc072a6c1f19.json",
+  "parameterValues" : [ ]
+}

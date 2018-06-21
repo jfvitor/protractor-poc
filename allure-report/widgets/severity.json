@@ -1,200 +1,250 @@
 [ {
-  "uid" : "99275a3bf70dd52d",
-  "name" : "should go to plan Control 3GB",
-  "time" : {
-    "start" : 1524246483277,
-    "stop" : 1524246484198,
-    "duration" : 921
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cf983e012680189",
-  "name" : "should go to checkout page",
-  "time" : {
-    "start" : 1524246466111,
-    "stop" : 1524246468033,
-    "duration" : 1922
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85b05cfe1507522e",
-  "name" : "should go to step 0 of the checkout page",
-  "time" : {
-    "start" : 1524246485608,
-    "stop" : 1524246486291,
-    "duration" : 683
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "32f2be2d929bf58c",
-  "name" : "should show Controle options",
-  "time" : {
-    "start" : 1524246487648,
-    "stop" : 1524246488282,
-    "duration" : 634
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "973401fdc001238e",
-  "name" : "should fill out the step 2 form and move to step 3 form",
-  "time" : {
-    "start" : 1524246470775,
-    "stop" : 1524246473683,
-    "duration" : 2908
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "324d1d7695b6ccca",
-  "name" : "should go to Plan P",
-  "time" : {
-    "start" : 1524246478838,
-    "stop" : 1524246479704,
-    "duration" : 866
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "189f7019198f9b1f",
-  "name" : "should have a Title",
-  "time" : {
-    "start" : 1524246487129,
-    "stop" : 1524246487648,
-    "duration" : 519
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de4d938eea5df519",
-  "name" : "should go to the detail page",
-  "time" : {
-    "start" : 1524246476318,
-    "stop" : 1524246477322,
-    "duration" : 1004
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "af83cf5aadfd1453",
-  "name" : "gets to see the details of a plan",
-  "time" : {
-    "start" : 1524246488915,
-    "stop" : 1524246489874,
-    "duration" : 959
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18556a0e3a90d475",
-  "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
-  "time" : {
-    "start" : 1524246473683,
-    "stop" : 1524246475374,
-    "duration" : 1691
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae81442c6be772ac",
-  "name" : "should show Pós-pago options",
-  "time" : {
-    "start" : 1524246488283,
-    "stop" : 1524246488915,
-    "duration" : 632
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31f1f64ae0cebee9",
-  "name" : "should have a purchase button",
-  "time" : {
-    "start" : 1524246484198,
-    "stop" : 1524246485607,
-    "duration" : 1409
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93986cef40ed461d",
-  "name" : "should go to Plan G",
-  "time" : {
-    "start" : 1524246479704,
-    "stop" : 1524246480622,
-    "duration" : 918
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fff065b31ab982d9",
-  "name" : "should go to Plan M",
-  "time" : {
-    "start" : 1524246477906,
-    "stop" : 1524246478838,
-    "duration" : 932
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e721870d821f1000",
-  "name" : "should fill out step 1 form and move to step 2 form",
-  "time" : {
-    "start" : 1524246469506,
-    "stop" : 1524246470775,
-    "duration" : 1269
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78398ab05222392b",
-  "name" : "should go to plan Control 5GB",
-  "time" : {
-    "start" : 1524246482399,
-    "stop" : 1524246483277,
-    "duration" : 878
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "146a753fa77d8e35",
+  "uid" : "90c6d59ec1e4c80b",
   "name" : "should fill out the step 0 form and move to step 1 form",
   "time" : {
-    "start" : 1524246468034,
-    "stop" : 1524246469506,
-    "duration" : 1472
+    "start" : 1529614655745,
+    "stop" : 1529614657245,
+    "duration" : 1500
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bd440647a4ad332d",
+  "uid" : "29c0cd3e4ad96173",
+  "name" : "should go to the detail page",
+  "time" : {
+    "start" : 1529614664732,
+    "stop" : 1529614665770,
+    "duration" : 1038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa6c4a1bc1c431ea",
+  "name" : "should fill out step 1 form and move to step 2 form",
+  "time" : {
+    "start" : 1529614657245,
+    "stop" : 1529614658527,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "107308deb10854dc",
+  "name" : "should go to checkout page",
+  "time" : {
+    "start" : 1524765496892,
+    "stop" : 1524765498731,
+    "duration" : 1839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4760cd7a36f82f6",
   "name" : "should have the option to navigate among the plans",
   "time" : {
-    "start" : 1524246477322,
-    "stop" : 1524246477906,
-    "duration" : 584
+    "start" : 1529614665770,
+    "stop" : 1529614666449,
+    "duration" : 679
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "605bbcdafc8d007d",
-  "name" : "should go to Plan GG",
+  "uid" : "77b73cc544a6c13f",
+  "name" : "should show Controle options",
   "time" : {
-    "start" : 1524246480622,
-    "stop" : 1524246481507,
-    "duration" : 885
+    "start" : 1529614683539,
+    "stop" : 1529614690734,
+    "duration" : 7195
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5b07bbe54cb6fa76",
+  "uid" : "4b759a7432b73779",
   "name" : "should change to Control Plans detail page",
   "time" : {
-    "start" : 1524246481507,
-    "stop" : 1524246482399,
-    "duration" : 892
+    "start" : 1529614675717,
+    "stop" : 1529614676867,
+    "duration" : 1150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2be6a06ab061d280",
+  "name" : "should fill out the step 2 form and move to step 3 form",
+  "time" : {
+    "start" : 1529614658527,
+    "stop" : 1529614661785,
+    "duration" : 3258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fcdcdb04963e858",
+  "name" : "should go to Plan M",
+  "time" : {
+    "start" : 1529614666449,
+    "stop" : 1529614672168,
+    "duration" : 5719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a76b1fdc31404eb8",
+  "name" : "should fill out step 1 form and move to step 2 form",
+  "time" : {
+    "start" : 1524765499904,
+    "stop" : 1524765501114,
+    "duration" : 1210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc6257b95b84b783",
+  "name" : "should go to plan Control 5GB",
+  "time" : {
+    "start" : 1529614676867,
+    "stop" : 1529614678053,
+    "duration" : 1186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2fe9f3030d916e2",
+  "name" : "should go to Plan P",
+  "time" : {
+    "start" : 1529614672168,
+    "stop" : 1529614673361,
+    "duration" : 1193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95bfebc50f1ef69a",
+  "name" : "should have a Title",
+  "time" : {
+    "start" : 1529614682979,
+    "stop" : 1529614683539,
+    "duration" : 560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74de246c5b5ebf89",
+  "name" : "should fill out the step 2 form and move to step 3 form",
+  "time" : {
+    "start" : 1524765501114,
+    "stop" : 1524765504534,
+    "duration" : 3420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "297b698bcaf25e3d",
+  "name" : "should go to Plan GG",
+  "time" : {
+    "start" : 1529614674564,
+    "stop" : 1529614675717,
+    "duration" : 1153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68bc3308a2f65353",
+  "name" : "should go to Plan G",
+  "time" : {
+    "start" : 1529614673361,
+    "stop" : 1529614674564,
+    "duration" : 1203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "790cbbabaf38fe39",
+  "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "time" : {
+    "start" : 1529614661786,
+    "stop" : 1529614663561,
+    "duration" : 1775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceb7e740280ff620",
+  "name" : "should have a purchase button",
+  "time" : {
+    "start" : 1529614679192,
+    "stop" : 1529614681110,
+    "duration" : 1918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf239a902522f24",
+  "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "time" : {
+    "start" : 1524765504535,
+    "stop" : 1524765506214,
+    "duration" : 1679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0672f49afcf6b5e",
+  "name" : "should go to checkout page",
+  "time" : {
+    "start" : 1529614653432,
+    "stop" : 1529614655744,
+    "duration" : 2312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14ba7b22d1db8bc0",
+  "name" : "should show Pós-pago options",
+  "time" : {
+    "start" : 1529614690734,
+    "stop" : 1529614691435,
+    "duration" : 701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e323a0f0b0cdc05d",
+  "name" : "should go to step 0 of the checkout page",
+  "time" : {
+    "start" : 1529614681110,
+    "stop" : 1529614681864,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c0da9c4198fd8c9",
+  "name" : "gets to see the details of a plan",
+  "time" : {
+    "start" : 1529614691435,
+    "stop" : 1529614692402,
+    "duration" : 967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2728b6500f21afda",
+  "name" : "should go to plan Control 3GB",
+  "time" : {
+    "start" : 1529614678053,
+    "stop" : 1529614679192,
+    "duration" : 1139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3c0f699f1dd70cc",
+  "name" : "should fill out the step 0 form and move to step 1 form",
+  "time" : {
+    "start" : 1524765498732,
+    "stop" : 1524765499904,
+    "duration" : 1172
   },
   "status" : "passed",
   "severity" : "normal"

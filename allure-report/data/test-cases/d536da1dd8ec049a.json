@@ -1,0 +1,59 @@
+{
+  "uid" : "d536da1dd8ec049a",
+  "name" : "should fill out the step 2 form and move to step 3 form",
+  "fullName" : "Purchasing a new bill pay.should fill out the step 2 form and move to step 3 form",
+  "historyId" : "9b6268ef3c39dff2ea867e7a84226972",
+  "time" : {
+    "start" : 1524246470775,
+    "stop" : 1524246473683,
+    "duration" : 2908
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ede77d2d41ed68f",
+      "name" : "Screenshot",
+      "source" : "ede77d2d41ed68f.png",
+      "type" : "image/png",
+      "size" : 861232
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out the step 2 form and move to step 3 form"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d536da1dd8ec049a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "a82f23822adcbcf1",
+  "name" : "should have the option to navigate among the plans",
+  "fullName" : "Checking the detail of a plan.should have the option to navigate among the plans",
+  "historyId" : "e195ddf3cb55fe2d69c914348428d56b",
+  "time" : {
+    "start" : 1524246477322,
+    "stop" : 1524246477906,
+    "duration" : 584
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3d784df8aa09278",
+      "name" : "Screenshot",
+      "source" : "d3d784df8aa09278.png",
+      "type" : "image/png",
+      "size" : 1025165
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the option to navigate among the plans"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a82f23822adcbcf1.json",
+  "parameterValues" : [ ]
+}

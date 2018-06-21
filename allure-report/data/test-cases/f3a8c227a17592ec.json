@@ -1,0 +1,63 @@
+{
+  "uid" : "f3a8c227a17592ec",
+  "name" : "should fill out step 1 form and move to step 2 form",
+  "fullName" : "Purchasing a new bill pay.should fill out step 1 form and move to step 2 form",
+  "historyId" : "6f4d4b4cadc7fefea08d0d55fd016072",
+  "time" : {
+    "start" : 1524764162298,
+    "stop" : 1524764163472,
+    "duration" : 1174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: No element found using locator: By(xpath, //*[@id=\"frmPersonalDataPass1\"]/div/div[8]/div[1]/button)",
+  "statusTrace" : "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"frmPersonalDataPass1\"]/div/div[8]/div[1]/button)\n                    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/built/element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n                    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.it (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:39:38)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:160:7)\n                From: Task: Run it(\"should fill out step 1 form and move to step 2 form\") in control flow\n                    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:29:5)\n                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:4:1)\n                    at Module._compile (module.js:660:30)\n                    at Object.Module._extensions..js (module.js:671:10)\n                    at Module.load (module.js:573:32)\n                    at tryModuleLoad (module.js:513:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: No element found using locator: By(xpath, //*[@id=\"frmPersonalDataPass1\"]/div/div[8]/div[1]/button)",
+    "statusTrace" : "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"frmPersonalDataPass1\"]/div/div[8]/div[1]/button)\n                    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/built/element.js:814:27)\n                    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n                    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n                    at UserContext.it (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:39:38)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:160:7)\n                From: Task: Run it(\"should fill out step 1 form and move to step 2 form\") in control flow\n                    at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)\n                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)\n                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)\n                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.describe (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:29:5)\n                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/jvitor/Documents/Code/protractor-poc/feature/step_definitions/checkout_spec.js:4:1)\n                    at Module._compile (module.js:660:30)\n                    at Object.Module._extensions..js (module.js:671:10)\n                    at Module.load (module.js:573:32)\n                    at tryModuleLoad (module.js:513:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4c43a245dc19da4",
+      "name" : "Screenshot",
+      "source" : "f4c43a245dc19da4.png",
+      "type" : "image/png",
+      "size" : 852632
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out step 1 form and move to step 2 form"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new bill pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a8c227a17592ec.json",
+  "parameterValues" : [ ]
+}

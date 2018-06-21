@@ -1,5 +1,5 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
     "uid" : "b01e3d91967d7706789d5151ad2d9f7f",
     "name" : "Checking the detail of a plan",
@@ -14,6 +14,17 @@
   }, {
     "uid" : "072e70950f3d817ebec3d3f6a7878a06",
     "name" : "Purchasing a new bill pay",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "fc50b46cc25cfd54d31448ecd3462468",
+    "name" : "Purchasing a new post paid",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

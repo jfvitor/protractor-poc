@@ -1,0 +1,59 @@
+{
+  "uid" : "1bb78619376f2769",
+  "name" : "should show Controle options",
+  "fullName" : "Planos online website.should show Controle options",
+  "historyId" : "6e0eecc988d051968daf107182b0b33e",
+  "time" : {
+    "start" : 1524505854201,
+    "stop" : 1524505854847,
+    "duration" : 646
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26f7e60b560c36cc",
+      "name" : "Screenshot",
+      "source" : "26f7e60b560c36cc.png",
+      "type" : "image/png",
+      "size" : 609167
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testClass",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show Controle options"
+  }, {
+    "name" : "package",
+    "value" : "Planos online website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bb78619376f2769.json",
+  "parameterValues" : [ ]
+}

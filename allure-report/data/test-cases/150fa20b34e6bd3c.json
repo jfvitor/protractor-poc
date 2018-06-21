@@ -1,0 +1,59 @@
+{
+  "uid" : "150fa20b34e6bd3c",
+  "name" : "should go to plan Control 3GB",
+  "fullName" : "Checking the detail of a plan.should go to plan Control 3GB",
+  "historyId" : "b880fbf76bf2447ec9b21029d9963780",
+  "time" : {
+    "start" : 1524764850297,
+    "stop" : 1524764851168,
+    "duration" : 871
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25647081f1cecd6a",
+      "name" : "Screenshot",
+      "source" : "25647081f1cecd6a.png",
+      "type" : "image/png",
+      "size" : 1023865
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to plan Control 3GB"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "150fa20b34e6bd3c.json",
+  "parameterValues" : [ ]
+}

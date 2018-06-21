@@ -3,241 +3,301 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "should go to checkout page",
-    "uid" : "5cf983e012680189",
+    "uid" : "107308deb10854dc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246466111,
-      "stop" : 1524246468033,
-      "duration" : 1922
+      "start" : 1524765496892,
+      "stop" : 1524765498731,
+      "duration" : 1839
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should fill out the step 0 form and move to step 1 form",
-    "uid" : "146a753fa77d8e35",
+    "uid" : "e3c0f699f1dd70cc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246468034,
-      "stop" : 1524246469506,
-      "duration" : 1472
+      "start" : 1524765498732,
+      "stop" : 1524765499904,
+      "duration" : 1172
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should fill out step 1 form and move to step 2 form",
-    "uid" : "e721870d821f1000",
+    "uid" : "a76b1fdc31404eb8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246469506,
-      "stop" : 1524246470775,
-      "duration" : 1269
+      "start" : 1524765499904,
+      "stop" : 1524765501114,
+      "duration" : 1210
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fill out the step 2 form and move to step 3 form",
+    "uid" : "74de246c5b5ebf89",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524765501114,
+      "stop" : 1524765504534,
+      "duration" : 3420
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+    "uid" : "bf239a902522f24",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524765504535,
+      "stop" : 1524765506214,
+      "duration" : 1679
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should go to checkout page",
+    "uid" : "d0672f49afcf6b5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1529614653432,
+      "stop" : 1529614655744,
+      "duration" : 2312
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fill out the step 0 form and move to step 1 form",
+    "uid" : "90c6d59ec1e4c80b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1529614655745,
+      "stop" : 1529614657245,
+      "duration" : 1500
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fill out step 1 form and move to step 2 form",
+    "uid" : "fa6c4a1bc1c431ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1529614657245,
+      "stop" : 1529614658527,
+      "duration" : 1282
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should fill out the step 2 form and move to step 3 form",
-    "uid" : "973401fdc001238e",
+    "uid" : "2be6a06ab061d280",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246470775,
-      "stop" : 1524246473683,
-      "duration" : 2908
+      "start" : 1529614658527,
+      "stop" : 1529614661785,
+      "duration" : 3258
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
-    "uid" : "18556a0e3a90d475",
+    "uid" : "790cbbabaf38fe39",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246473683,
-      "stop" : 1524246475374,
-      "duration" : 1691
+      "start" : 1529614661786,
+      "stop" : 1529614663561,
+      "duration" : 1775
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to the detail page",
-    "uid" : "de4d938eea5df519",
+    "uid" : "29c0cd3e4ad96173",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246476318,
-      "stop" : 1524246477322,
-      "duration" : 1004
+      "start" : 1529614664732,
+      "stop" : 1529614665770,
+      "duration" : 1038
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should have the option to navigate among the plans",
-    "uid" : "bd440647a4ad332d",
+    "uid" : "b4760cd7a36f82f6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246477322,
-      "stop" : 1524246477906,
-      "duration" : 584
+      "start" : 1529614665770,
+      "stop" : 1529614666449,
+      "duration" : 679
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to Plan M",
-    "uid" : "fff065b31ab982d9",
+    "uid" : "2fcdcdb04963e858",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246477906,
-      "stop" : 1524246478838,
-      "duration" : 932
+      "start" : 1529614666449,
+      "stop" : 1529614672168,
+      "duration" : 5719
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to Plan P",
-    "uid" : "324d1d7695b6ccca",
+    "uid" : "e2fe9f3030d916e2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246478838,
-      "stop" : 1524246479704,
-      "duration" : 866
+      "start" : 1529614672168,
+      "stop" : 1529614673361,
+      "duration" : 1193
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to Plan G",
-    "uid" : "93986cef40ed461d",
+    "uid" : "68bc3308a2f65353",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246479704,
-      "stop" : 1524246480622,
-      "duration" : 918
+      "start" : 1529614673361,
+      "stop" : 1529614674564,
+      "duration" : 1203
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to Plan GG",
-    "uid" : "605bbcdafc8d007d",
+    "uid" : "297b698bcaf25e3d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246480622,
-      "stop" : 1524246481507,
-      "duration" : 885
+      "start" : 1529614674564,
+      "stop" : 1529614675717,
+      "duration" : 1153
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should change to Control Plans detail page",
-    "uid" : "5b07bbe54cb6fa76",
+    "uid" : "4b759a7432b73779",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246481507,
-      "stop" : 1524246482399,
-      "duration" : 892
+      "start" : 1529614675717,
+      "stop" : 1529614676867,
+      "duration" : 1150
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to plan Control 5GB",
-    "uid" : "78398ab05222392b",
+    "uid" : "fc6257b95b84b783",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246482399,
-      "stop" : 1524246483277,
-      "duration" : 878
+      "start" : 1529614676867,
+      "stop" : 1529614678053,
+      "duration" : 1186
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to plan Control 3GB",
-    "uid" : "99275a3bf70dd52d",
+    "uid" : "2728b6500f21afda",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246483277,
-      "stop" : 1524246484198,
-      "duration" : 921
+      "start" : 1529614678053,
+      "stop" : 1529614679192,
+      "duration" : 1139
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should have a purchase button",
-    "uid" : "31f1f64ae0cebee9",
+    "uid" : "ceb7e740280ff620",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246484198,
-      "stop" : 1524246485607,
-      "duration" : 1409
+      "start" : 1529614679192,
+      "stop" : 1529614681110,
+      "duration" : 1918
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should go to step 0 of the checkout page",
-    "uid" : "85b05cfe1507522e",
+    "uid" : "e323a0f0b0cdc05d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246485608,
-      "stop" : 1524246486291,
-      "duration" : 683
+      "start" : 1529614681110,
+      "stop" : 1529614681864,
+      "duration" : 754
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should have a Title",
-    "uid" : "189f7019198f9b1f",
+    "uid" : "95bfebc50f1ef69a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246487129,
-      "stop" : 1524246487648,
-      "duration" : 519
+      "start" : 1529614682979,
+      "stop" : 1529614683539,
+      "duration" : 560
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should show Controle options",
-    "uid" : "32f2be2d929bf58c",
+    "uid" : "77b73cc544a6c13f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246487648,
-      "stop" : 1524246488282,
-      "duration" : 634
+      "start" : 1529614683539,
+      "stop" : 1529614690734,
+      "duration" : 7195
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "should show Pós-pago options",
-    "uid" : "ae81442c6be772ac",
+    "uid" : "14ba7b22d1db8bc0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246488283,
-      "stop" : 1524246488915,
-      "duration" : 632
+      "start" : 1529614690734,
+      "stop" : 1529614691435,
+      "duration" : 701
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "gets to see the details of a plan",
-    "uid" : "af83cf5aadfd1453",
+    "uid" : "1c0da9c4198fd8c9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1524246488915,
-      "stop" : 1524246489874,
-      "duration" : 959
+      "start" : 1529614691435,
+      "stop" : 1529614692402,
+      "duration" : 967
     },
     "flaky" : false,
     "parameters" : [ ]

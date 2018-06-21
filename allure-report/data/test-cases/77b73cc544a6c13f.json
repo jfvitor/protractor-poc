@@ -1,0 +1,109 @@
+{
+  "uid" : "77b73cc544a6c13f",
+  "name" : "should show Controle options",
+  "fullName" : "Planos online website.should show Controle options",
+  "historyId" : "6e0eecc988d051968daf107182b0b33e",
+  "time" : {
+    "start" : 1529614683539,
+    "stop" : 1529614690734,
+    "duration" : 7195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab970ec5c5e77fd3",
+      "name" : "Screenshot",
+      "source" : "ab970ec5c5e77fd3.png",
+      "type" : "image/png",
+      "size" : 634979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testClass",
+    "value" : "Planos online website"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show Controle options"
+  }, {
+    "name" : "package",
+    "value" : "Planos online website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60166883f701f3d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525701579708,
+        "stop" : 1525701580373,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "245a9fc163652761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524765518335,
+        "stop" : 1524765518986,
+        "duration" : 651
+      }
+    }, {
+      "uid" : "718b2e52aeeceb3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764854569,
+        "stop" : 1524764855209,
+        "duration" : 640
+      }
+    }, {
+      "uid" : "78528e0b1accf96b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764178034,
+        "stop" : 1524764178736,
+        "duration" : 702
+      }
+    }, {
+      "uid" : "1bb78619376f2769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524505854201,
+        "stop" : 1524505854847,
+        "duration" : 646
+      }
+    }, {
+      "uid" : "19558425ed98517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246487648,
+        "stop" : 1524246488282,
+        "duration" : 634
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77b73cc544a6c13f.json",
+  "parameterValues" : [ ]
+}

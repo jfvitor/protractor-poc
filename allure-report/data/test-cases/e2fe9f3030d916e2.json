@@ -1,0 +1,109 @@
+{
+  "uid" : "e2fe9f3030d916e2",
+  "name" : "should go to Plan P",
+  "fullName" : "Checking the detail of a plan.should go to Plan P",
+  "historyId" : "5f1b8658f022b263aae3e205dc19e280",
+  "time" : {
+    "start" : 1529614672168,
+    "stop" : 1529614673361,
+    "duration" : 1193
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81bcbca820688542",
+      "name" : "Screenshot",
+      "source" : "81bcbca820688542.png",
+      "type" : "image/png",
+      "size" : 1068405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to Plan P"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d77b3e7dfe393d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525701568547,
+        "stop" : 1525701569705,
+        "duration" : 1158
+      }
+    }, {
+      "uid" : "a60313ffaea19501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524765509618,
+        "stop" : 1524765510467,
+        "duration" : 849
+      }
+    }, {
+      "uid" : "36e4640fafd76728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764845900,
+        "stop" : 1524764846766,
+        "duration" : 866
+      }
+    }, {
+      "uid" : "a22f543f8526fa78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524764167995,
+        "stop" : 1524764168886,
+        "duration" : 891
+      }
+    }, {
+      "uid" : "5be9419715eab5c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524505845292,
+        "stop" : 1524505846177,
+        "duration" : 885
+      }
+    }, {
+      "uid" : "177f0e1a2012d2d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524246478838,
+        "stop" : 1524246479704,
+        "duration" : 866
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2fe9f3030d916e2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "ed903dbabe88d45",
+  "name" : "should go to plan Control 5GB",
+  "fullName" : "Checking the detail of a plan.should go to plan Control 5GB",
+  "historyId" : "4deafb9218f4e58a4d57edf91a527bf7",
+  "time" : {
+    "start" : 1524765513112,
+    "stop" : 1524765513978,
+    "duration" : 866
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ccf2d83c8444e3f",
+      "name" : "Screenshot",
+      "source" : "3ccf2d83c8444e3f.png",
+      "type" : "image/png",
+      "size" : 1236438
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testClass",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to plan Control 5GB"
+  }, {
+    "name" : "package",
+    "value" : "Checking the detail of a plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed903dbabe88d45.json",
+  "parameterValues" : [ ]
+}

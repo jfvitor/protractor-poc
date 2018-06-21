@@ -1,0 +1,69 @@
+{
+  "uid" : "90c6d59ec1e4c80b",
+  "name" : "should fill out the step 0 form and move to step 1 form",
+  "fullName" : "Purchasing a new post paid.should fill out the step 0 form and move to step 1 form",
+  "historyId" : "a800e601478e9495f06c0d413d936eaa",
+  "time" : {
+    "start" : 1529614655745,
+    "stop" : 1529614657245,
+    "duration" : 1500
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a3419dca56bcc96",
+      "name" : "Screenshot",
+      "source" : "1a3419dca56bcc96.png",
+      "type" : "image/png",
+      "size" : 961023
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out the step 0 form and move to step 1 form"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83c51586637f7eca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525701557162,
+        "stop" : 1525701558796,
+        "duration" : 1634
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90c6d59ec1e4c80b.json",
+  "parameterValues" : [ ]
+}

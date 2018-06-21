@@ -1,0 +1,69 @@
+{
+  "uid" : "790cbbabaf38fe39",
+  "name" : "should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "fullName" : "Purchasing a new post paid.should fill out the step 3 form and show the protocol number informing that the request was sent",
+  "historyId" : "89ab54ceecbadfda7eff6fb1a98ad5ba",
+  "time" : {
+    "start" : 1529614661786,
+    "stop" : 1529614663561,
+    "duration" : 1775
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "897beb0da1bab60d",
+      "name" : "Screenshot",
+      "source" : "897beb0da1bab60d.png",
+      "type" : "image/png",
+      "size" : 1067247
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "testMethod",
+    "value" : "should fill out the step 3 form and show the protocol number informing that the request was sent"
+  }, {
+    "name" : "package",
+    "value" : "Purchasing a new post paid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f224f455198ad5e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1525701562953,
+        "stop" : 1525701564656,
+        "duration" : 1703
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "790cbbabaf38fe39.json",
+  "parameterValues" : [ ]
+}
